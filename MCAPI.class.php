@@ -47,6 +47,12 @@ class MCAPI {
             return true;
         }
     }
+    function getErrorCode() {
+        return $this->errorCode;
+    }
+    function getErrorMsg() {
+        return $this->errorMessage;
+    }
     function getTimeout(){
         return $this->timeout;
     }
